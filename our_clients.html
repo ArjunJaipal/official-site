@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Our Clients</title>
+    <style>
+        /* Add custom styles for buttons */
+        button {
+            padding: 10px 20px; /* Adjust padding as needed */
+            transition: background-color 0.3s; /* Add a smooth transition effect */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media.istockphoto.com/id/1359679957/photo/white-business-style-background.jpg?s=1024x1024&w=is&k=20&c=54tWFoEAQO79ij61cS0oLoLVjSPSIpBDoPVi8fDvHrU=');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #2C3E50;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+
+        section img {
+            width: 150px; /* Adjust the width as needed */
+            height: auto;
+            margin: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section img:nth-last-child(-n+2) {
+            margin-top: 50px; /* Adjust the margin to center the last two images */
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="bg-gray-800 py-3">
+            <h1 class="text-3xl font-semibold services-title text-white">Our Clients</h1>
+        </div>
+        <!-- Header content goes here -->
+    </header>
+
+    <section>
+        <!-- Images -->
+        <img src="https://cdn.worldvectorlogo.com/logos/capgemini-201x-logo.svg" alt="Image 1">
+        <img src="https://cdn.worldvectorlogo.com/logos/sears.svg" alt="Image 2">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Hughes_Systique_Corporation_logo.png" alt="Image 3">
+    
+        <img src="https://seeklogo.com/images/T/tieto-logo-5D4F5D3319-seeklogo.com.png" alt="Image 4">
+        <img src="https://seeklogo.com/images/C/CREDEX-logo-3013EFD8B0-seeklogo.com.png" alt="Image 5">
+        <img src="https://5e6c6aaa.rocketcdn.me/wp-content/uploads/2022/04/SLK_Logo.svg" alt="Image 6">
+        <img src="https://www.cloudmoyo.com/wp-content/uploads/2022/07/Logo.svg" alt="Image 7">
+        <img src="https://seeklogo.com/images/S/sopra-steria-logo-6E3F00E455-seeklogo.com.png" alt="Image 8">
+
+    </section>
+
+    <footer class="flex flex-col items-center justify-center bg-gray-800 text-white text-center">
+        <include src="contact.html"></include>
+
+        <!-- Office Contact Information -->
+        <div class="mt-12 p-8 w-full max-w-4xl">
+            <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+            <p>Email: <a href="mailto: neeraj@pmssindia.com">neeraj@pmssindia.com</a></p>
+            <p>Email: <a href="mailto: anubhav@pmssindia.com">anubhav@pmssindia.com</a></p>
+            <p>Phone: 0120-2427007, 0120-4248221, Mob: 9811207044</p>
+            <p>Address: BS-1514 Plot No-C-1A, Galaxy Diamond Plaza, Sector-4, Greater Noida West, Gautam Buddha Nagar,
+                Uttar Pradesh, Noida-201009</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="flex space-x-4 mb-4">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-256.png"
+                    alt="Facebook" class="w-6 h-6">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-256.png"
+                    alt="Instagram" class="w-6 h-6">
+            </a>
+            <a href="https://www.linkedin.com/company/path-mentors-staffing-solution/" target="_blank"
+                rel="noopener noreferrer">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png"
+                    alt="LinkedIn" class="w-6 h-6">
+            </a>
+        </div>
+
+        <!-- Copyright Information -->
+        <div class="py-4 text-gray-600">
+            &copy; 2023, All Rights Reserved.
+        </div>
+
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
